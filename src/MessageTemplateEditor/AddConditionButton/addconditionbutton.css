@@ -1,0 +1,17 @@
+.addConditionButton {
+  display: flex;
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  align-items: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: var(--lightGray);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.addConditionButton:hover {
+  background-color: var(--gray);
+}

@@ -1,0 +1,10 @@
+.conditionType {
+  height: fit-content;
+  padding: 2px 4px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: var(--washedOutDarkTurquoise);
+  border-radius: 7px;
+}

@@ -1,0 +1,11 @@
+.messageTextArea {
+  display: flex;
+  flex-grow: 10;
+}
+
+.textArea {
+  display: flex;
+  flex-grow: 10;
+  resize: none;
+  line-height: 20px;
+}

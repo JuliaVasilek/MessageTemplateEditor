@@ -1,0 +1,11 @@
+.messageTemplateEditor {
+  display: flex;
+  flex-direction: column;
+}
+
+.operationBtnList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}

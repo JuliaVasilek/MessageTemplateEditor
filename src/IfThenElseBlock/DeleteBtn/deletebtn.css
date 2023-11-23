@@ -1,0 +1,20 @@
+.deleteBtn {
+  display: flex;
+  height: fit-content;
+  margin-left: 20px;
+  background-color: var(--turquoise);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  opacity: 1;
+}

@@ -1,0 +1,28 @@
+.variableItemBlock {
+  position: relative;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.varInput:focus ~ .floatingLabel, .varInput:not(:focus):valid ~ .floatingLabel {
+  top: 3px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+.varInput {
+  font-size: 14px;
+  width: 200px;
+  height: 35px;
+}
+
+.floatingLabel {
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  color: var(--darkGray);
+  pointer-events: none;
+  transition: 0.2s ease all;
+}

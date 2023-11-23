@@ -1,0 +1,14 @@
+.variablesOptionItem {
+  padding: 5px;
+  margin-right: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid var(--turquoise);
+}
+
+.variablesOptionItem:hover {
+  border-color: var(--darkTurquoise);
+}

@@ -1,0 +1,17 @@
+.previewVariablesBlock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.variablesTitle {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.PreviewVariablesItem {
+  margin-right: 10px;
+}

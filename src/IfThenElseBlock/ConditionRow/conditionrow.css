@@ -1,0 +1,13 @@
+.conditionRow, .conditionSide  {
+  display: flex;
+  flex-direction: row;
+}
+
+.conditionRow {
+  flex-grow: 10;
+  margin-left: -150px;
+}
+
+.conditionSide {
+  width: 150px;
+}

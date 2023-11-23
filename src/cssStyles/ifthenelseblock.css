@@ -1,0 +1,53 @@
+.ifThenElseBlock {
+  display: flex;
+}
+
+.ifThenElseBlockContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 10;
+}
+
+.pushBlock {
+  width: 150px;
+}
+
+.conditionRow, .conditionSide  {
+  display: flex;
+  flex-direction: row;
+}
+
+.conditionRow {
+  flex-grow: 10;
+  margin-left: -150px;
+}
+
+.conditionSide {
+  width: 150px;
+}
+
+.conditionType {
+  height: fit-content;
+  padding: 2px 4px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: var(--darkTurquoise);
+  border-radius: 7px;
+}
+
+.deleteBtn {
+  display: flex;
+  height: fit-content;
+  margin-left: 20px;
+}
+
+.messageTextArea {
+  display: flex;
+  flex-grow: 10;
+}
+
+.textArea {
+  display: flex;
+  flex-grow: 10;
+}

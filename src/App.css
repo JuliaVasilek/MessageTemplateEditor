@@ -1,38 +1,99 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url(../src/fonts/SpaceGrotesk-woff2/SpaceGrotesk-Light.woff2) format('woff2'), url(../src/fonts/SpaceGrotesk-woff/SpaceGrotesk-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url(../src/fonts/SpaceGrotesk-woff2/SpaceGrotesk-Regular.woff2) format('woff2'), url(../src/fonts/SpaceGrotesk-woff/SpaceGrotesk-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url(../src/fonts/SpaceGrotesk-woff2/SpaceGrotesk-Medium.woff2) format('woff2'), url(../src/fonts/SpaceGrotesk-woff/SpaceGrotesk-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url(../src/fonts/SpaceGrotesk-woff2/SpaceGrotesk-SemiBold.woff2) format('woff2'), url(../src/fonts/SpaceGrotesk-woff/SpaceGrotesk-SemiBold.woff) format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url(../src/fonts/SpaceGrotesk-woff2/SpaceGrotesk-Bold.woff2) format('woff2'), url(../src/fonts/SpaceGrotesk-woff/SpaceGrotesk-Bold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big Shoulders Stencil Display';
+  src: url(../src/fonts/HindGuntur-woff2/HindGuntur-Light.woff2) format('woff2'), url(../src/fonts/HindGuntur-woff/HindGuntur-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big Shoulders Stencil Display';
+  src: url(../src/fonts/BigShouldersStencilDisplay-woff2/BigShouldersStencilDisplay-Regular.woff2) format('woff2'), url(../src/fonts/BigShouldersStencilDisplay-woff/BigShouldersStencilDisplay-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big Shoulders Stencil Display';
+  src: url(../src/fonts/BigShouldersStencilDisplay-woff2/BigShouldersStencilDisplay-Medium.woff2) format('woff2'), url(../src/fonts/BigShouldersStencilDisplay-woff/BigShouldersStencilDisplay-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big Shoulders Stencil Display';
+  src: url(../src/fonts/BigShouldersStencilDisplay-woff2/BigShouldersStencilDisplay-SemiBold.woff2) format('woff2'), url(../src/fonts/BigShouldersStencilDisplay-woff/BigShouldersStencilDisplay-SemiBold.woff) format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big Shoulders Stencil Display';
+  src: url(../src/fonts/BigShouldersStencilDisplay-woff2/BigShouldersStencilDisplay-Bold.woff2) format('woff2'), url(../src/fonts/BigShouldersStencilDisplay-woff/BigShouldersStencilDisplay-Bold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big Shoulders Stencil Display';
+  src: url(../src/fonts/BigShouldersStencilDisplay-woff2/BigShouldersStencilDisplay-ExtraBold.woff2) format('woff2'), url(../src/fonts/BigShouldersStencilDisplay-woff/BigShouldersStencilDisplay-ExtraBold.woff) format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+:root {
+  --turquoise: #1FB289;
+  --washedOutDarkTurquoise: #306657;
+  --darkTurquoise: #0c5c45;
+  --lightGray: #cfcfcf;
+  --gray: #a4a4a4;
+  --darkGray: #8c8c8c;
+}
+
 .App {
+  position: relative;
   text-align: center;
+  padding: 40px;
+  font-family: 'Big Shoulders Stencil Display';
+  font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+textarea {
+  font-family: 'Space Grotesk';
+  font-size: 16px;
+  margin-bottom: 10px;
 }

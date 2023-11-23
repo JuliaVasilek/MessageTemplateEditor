@@ -1,0 +1,5 @@
+.cornerCloseBtn {
+  position: absolute;
+  right: 80px;
+  cursor: pointer;
+}

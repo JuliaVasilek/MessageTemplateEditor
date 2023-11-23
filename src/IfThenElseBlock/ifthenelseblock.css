@@ -1,0 +1,15 @@
+.ifThenElseBlock {
+  display: flex;
+}
+
+.ifThenElseBlockContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 10;
+}
+
+.pushBlock {
+  width: 150px;
+}
+
+
